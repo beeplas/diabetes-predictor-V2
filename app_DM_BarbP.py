@@ -93,7 +93,8 @@ st.markdown('<p style="color: #FAFAFA; font-size: 1.1rem; opacity: 0.9;">Fill in
 # ─────────────────────────────────────────────────────────────────────────────
 # INPUT FORM
 # ─────────────────────────────────────────────────────────────────────────────
-with st.container(border=True):
+with st.container():
+
     st.subheader("📋 Patient Profile")
     col1, col2 = st.columns(2)
 
@@ -164,3 +165,4 @@ if st.button("Generate Risk Assessment", use_container_width=True):
             ("Maintain current lifestyle." if p_dm < 0.3 else "Consult a specialist for further testing."))
 
 st.caption("Educational tool only. Data is not stored.")
+
