@@ -17,3 +17,5 @@ pydantic>=2.4
 python-multipart>=0.0.6
 altair<5
 streamlit
+standard-imghdr
+
